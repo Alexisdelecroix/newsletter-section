@@ -1,0 +1,99 @@
+/* Put any custom CSS styles here.  */
+/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+img{
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+section .left{
+  width: 50%;
+  padding: 55px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+section .left .title{
+  font-size: 60px;
+  font-family: "Noto Sans";
+  line-height: 60px;
+  width: 90%;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+section .container-info{
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  margin-bottom: 40px;
+}
+
+section .container-info .info{
+  display: flex; 
+  align-items: center;
+  column-gap: 10px;
+}
+
+section .container-info .info .fa-solid{
+  background-color:#EEF2FE;
+  border-radius: 50px;
+  padding: 4px;
+  color: #4438CA;
+  font-size: 20px;
+}
+
+section .container-info p {
+  font-size: 22px;
+  color: #525252;
+}
+
+section .container-input{
+  display: flex;
+  column-gap: 15px;
+}
+
+section input{
+  padding: 10px;
+  background-color: #FAFAFA;
+  border: 2px solid #F4F4F4;
+  border-radius: 5px;
+  width: 45%;
+}
+
+section .container-input button{
+  color: white;
+  background-color: #4438CA;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+section .text {
+  margin-top: 30px;
+  font-size: 22px;
+  color: #525252;
+}
+
+
+
