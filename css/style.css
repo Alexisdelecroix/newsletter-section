@@ -33,7 +33,7 @@ section .left{
 
 
 section .left .title{
-  font-size: 60px;
+  font-size: 50px;
   font-family: "Noto Sans";
   line-height: 60px;
   width: 90%;
